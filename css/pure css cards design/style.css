@@ -1,0 +1,197 @@
+    body {
+    
+}
+.club {
+    margin: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: table;
+    
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari and Chrome */
+}
+.club > .box {
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border: 0px solid black;
+    margin: 1px;
+}
+
+.club > .box1 { 
+    width: 52%;
+    height: 52%;
+    position: absolute;
+    left: 21%;
+    top: 46%;
+    border-radius: 50%;
+}
+.club > .box2 {
+    position: absolute;
+    left: 45%;
+    top: 7%;
+    border-radius: 50%;
+}
+.club > .box3 { 
+    position: absolute;
+    left: 0%;
+    top: 7%;
+    border-radius: 50%;
+}
+.club > .box4 {
+    width: 10%;
+    height: 50%;
+    position: absolute;
+    left: 43%;
+    top: 3%;
+}
+.club > .box5 {
+    width: 25%;
+    height: 2%;
+    position: absolute;
+    left: 36%;
+    top: 1%;
+}
+.spade {
+    margin: 30px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: table;
+    
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari and Chrome */
+}
+.spade > .box {
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
+    border: 0px solid black;
+    margin: 1px;
+}
+
+.spade > .box1 {
+    position: absolute;
+    left: 5%;
+    top: 48%;
+    width: 0;
+	height: 0;
+	border-left: 43px solid transparent;
+	border-right: 43px solid transparent;
+	border-top: 60px solid black;  
+    z-index:1;
+}
+.spade > .box2 {
+    position: absolute;
+    left: 44%;
+    top: 10%;
+    border-radius: 50%;
+    
+    background-color: black;
+}
+.spade > .box3 { 
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    border-radius: 50%;
+    
+    background-color: black;
+}
+.spade > .box4 {
+    width: 10%;
+    height: 50%;
+    position: absolute;
+    left: 43%;
+    top: 3%;
+    background-color: black;
+}
+.spade > .box5 {
+    width: 25%;
+    height: 2%;
+    position: absolute;
+    left: 36%;
+    top: 1%;
+    background-color: black;
+}
+.diamond {
+    margin: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: table;
+
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari and Chrome */
+}
+.diamond > .box {
+    position: absolute;
+    top: 44%;
+    left: -6%;
+    width: 50%;
+    height: 50%;    
+    background-color: #f00;
+    
+    transform: skew(20deg,20deg);
+    -ms-transform: skew(20deg,20deg); /* IE 9 */
+    -webkit-transform: skew(20deg,20deg); /* Safari and Chrome */
+}
+.heart {
+    margin: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: table;
+}
+.heart > .box {
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
+    border: 0px solid red;
+    margin: 1px;
+}
+
+.heart > .box1 {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    width: 0;
+	height: 0;
+	border-left: 43px solid transparent;
+	border-right: 43px solid transparent;
+	border-top: 60px solid red;  
+    z-index:1;
+}
+.heart > .box2 {
+    position: absolute;
+    left: 44%;
+    top: 7%;
+    border-radius: 50%;
+    
+    background-color: red;
+}
+.heart > .box3 { 
+    position: absolute;
+    left: 2%;
+    top: 7%;
+    border-radius: 50%;
+    
+    background-color: red;
+}
+.heart > .box4 {
+    width: 10%;
+    height: 50%;
+    position: absolute;
+    left: 43%;
+    top: 3%;
+}
+.heart > .box5 {
+    width: 25%;
+    height: 2%;
+    position: absolute;
+    left: 36%;
+    top: 1%;
+}
